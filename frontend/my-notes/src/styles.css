@@ -1,0 +1,270 @@
+.signup{
+    background-color: black;
+    
+    height: 400px;
+    border: 2px solid rgb(245, 255, 62);
+   
+    padding: 30px;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 40px;
+    width:520px;
+    margin-left: 450px;
+   
+    padding-left: 120px;
+    
+   
+}
+/* .entire
+{
+  width: 1535x;
+  height: 99vh;
+border: 2px solid white;
+} */
+
+  
+
+.newpage{
+  
+    border-radius: 20px;
+    background-color: rgb(41, 38, 39);
+    align-items: center;
+    width: 600px;
+    border: 2px solid black;
+    margin-left: 70px;
+    padding: 30px;
+    padding-left: 150px;
+    color: white;
+    font-weight: 800;
+    margin-top: 400px;
+  margin-top: 80px;
+    
+    height: 200px;
+    padding-top: 60px;
+   
+   
+}
+
+.newpage div{
+    margin-bottom:  15px;
+}
+.signup div{
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.signup div span{
+    margin-right:25px;
+}
+.signup div button:hover{
+    background-color: rgb(29, 29, 25);
+    color: white;
+}
+.signin{
+ 
+    width:550px;
+    margin-left: 450px;
+   
+    background-color: black;
+    border-radius: 40px;
+
+    height: 400px;
+border: 2px solid rgb(230, 241, 27);
+    padding: 30px;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 90px;
+   
+}
+.signin div{
+    padding-top: 30px;
+    padding-left: 70px;
+}
+.signin div span{
+    margin-right:25px;
+}
+.signin div button:hover{
+    background-color: rgb(29, 29, 25);
+    color: white;
+}
+.navbar{
+    border-radius: 10px;
+     background-color: #333;
+     color: white;
+     padding: 10px;
+     position: fixed;
+     height: 100px;
+     margin-top: 40px;
+     width: 85%;
+     
+     margin-left: 35px;
+     top:0;
+      z-index: 1000; 
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding-left: 40px;
+     padding-right: 50px;
+     background-color: black;
+     
+    
+ }
+
+ .heading{
+  color:white;
+
+ }
+ 
+ .text-button {
+   background: none;
+   border: none;
+   text-decoration: none;
+   
+   cursor: pointer;
+   font-size: 15px;
+   color: white;
+   
+   /* Optionally, add underlining to make it look more like a text link */
+ }
+ .text-button:hover {
+   background-color: rgb(188, 209, 237);
+   color: red;
+   border-radius: 15px;
+   transform: scale(1.1);
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+ 
+ }
+ .navbar ul{
+ display: flex;
+ list-style-type: none;
+ margin-right: 85px;
+ 
+ }
+ .navbar ul li a{
+     margin-left: 75px;
+     list-style-type: none;
+     text-decoration: none;
+     color:white;
+     font-size: 15px;
+     justify-content: space-between;
+ }
+ /* span{
+   color:rgb(24, 155, 230);
+     font-size: 70px;
+    
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+ } */
+ 
+ .card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 120px;
+  margin-right: 50px;
+  max-height: 500px;
+ /* overflow-y: auto; */
+ margin-top: 200px;
+ overflow-y: scroll
+ 
+
+}
+.card-container::-webkit-scrollbar {
+  width: 12px; /* Adjust as needed */
+}
+
+.card-container::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+.card-container:hover::-webkit-scrollbar-thumb {
+  background-color: #888; /* Adjust as needed */
+}
+
+.card {
+  
+  flex: 0 0 calc(33.33% - 30px); /* Adjust the width as needed */
+  background-color: #2b2929;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  margin-right: 20px;
+ 
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 8px;
+  width: 1100px;
+  box-sizing: border-box;
+}
+
+.card-date {
+  color: #dad1d1;
+  font-size: 0.8em;
+}
+
+.card-title {
+  color: #f7f7f7;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.card-text {
+  color: #d6d6d6;
+  font-size: 1em;
+  line-height: 1.4;
+} 
+
+  .body1{
+    background-color: red;
+    color:red;
+    
+
+  }
+
+  .submitnotes{
+   
+   background-color: 'rgb(63, 62, 62)';
+   border-radius: 15px;
+   
+  }
+  .submitnotes:hover{
+  background-color: black;
+color: white;
+border-radius: 15px;
+  }
+
+  .navbar1{
+    border-radius: 10px;
+     background-color: #333;
+     color: white;
+     padding: 10px;
+     position: fixed;
+     height: 100px;
+     margin-top: 40px;
+     width: 85%;
+     
+     margin-left: 88px;
+     top:0;
+      z-index: 1000; 
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding-left: 40px;
+     padding-right: 50px;
+     background-color: black;
+     
+    
+ }
+
+ .navbar1 ul{
+  display: flex;
+  list-style-type: none;
+  margin-right: 85px;
+  
+  }
+  .navbar1 ul li a{
+      margin-left: 75px;
+      list-style-type: none;
+      text-decoration: none;
+      color:white;
+      font-size: 15px;
+      justify-content: space-between;
+  }
